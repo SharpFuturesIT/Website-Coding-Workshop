@@ -1,0 +1,100 @@
+/*--- Global Styles ---*/
+.bodybg {
+    background-image: linear-gradient(to bottom, #000000, #dd44bb);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+}
+
+
+header {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+    background-color: #ffffff;
+    font-size: 150%;
+    padding: 25px;
+    box-shadow: 0px 0px 20px 20px #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+.hero {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 125%;
+    background-image: linear-gradient(to right, #ff44ff, #222);
+    padding:10px;
+    text-align:center;
+}
+
+.heroh {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #ff44ff, #222);
+    margin: 0px;
+    text-align:center;
+}
+
+.herop {
+    background-color:white;
+    color:#222;
+    margin: 10px 30% 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sect {
+    background-color: transparent;
+    padding: 35px;
+    display: block;
+}
+
+.s1 {
+    background-color: black;
+    margin: auto;
+    padding: 1%;
+    border-radius: 20px;
+    border: 8px outset #dd00dd;
+    box-shadow: 0 0 15px 10px #cc00cc88, 0 0 12px 8px #dd00dd inset;
+    width: 50%;
+}
+
+
+.sp1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 1px 1px #ffccff, 0px 2px 2px #ff88ff, 0px 3px 3px #ff44ff, 0px 4px 4px #ff00ff;
+}
+
+.cardsect {
+    display: block;
+}
+
+.twocards {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.card {
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    padding: 1%;
+    border-radius: 5px;
+    border: 3px solid #ff00ff;
+    width: 30%;
+    height: 200px;
+}
+
+.cardhead {
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    padding: 1%;
+    border-radius: 5px;
+    border: 3px solid #ff00ff;
+    width: 15%;
+}
+
