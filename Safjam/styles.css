@@ -1,0 +1,307 @@
+/*--- Global Styles ---*/
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: #d1ffbd;
+
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 120px;
+    color: black;
+}
+
+nav {
+    background-color: #d1ffbd;
+    padding: 15px;
+}
+.home {
+  position: relative;
+  height: 300px; 
+  overflow: hidden;
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 60%;
+  z-index: -1;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px); 
+}
+
+.white-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1;
+}
+.two-column-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 30px; 
+}
+
+.text-content {
+  flex: 1;
+  font-family: Arial, sans-serif;
+  color:black;
+  font-size: 21px; 
+}
+
+.text-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  width: 280px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+  margin:0 auto;
+} 
+.two-column-section1{
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px;
+gap: 30px; 
+}
+ .skills img {
+width: 400px;
+height: 350px;
+}
+.skills {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: #D1FFBD;
+    padding: 50px 20px;
+    text-align: left;
+    font-family: roboto slab;
+}
+
+.skills ul {
+list-style: none;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.skills li {
+border: 2px solid #06402B;
+padding: 10px 15px;
+border-radius: 8px;
+background-color: #fff;
+font-weight: bold;
+box-shadow: 2px 2px 5px rgba(0,0,0.1);
+}
+.work_picture {
+    width: 75% !important;
+    height: auto;
+}
+.projects {
+    background-color: #006000;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    color: #d3d3d3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.projects h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.projects h2 {
+    font-size: 32px;
+}
+.projects .p1 img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+.projects .p1{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.projects .text {
+    max-width: 450px;
+    padding: 20px;
+} 
+.projects .p2 {
+    flex-direction: row-reverse;
+}
+.animation {
+    
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: moveLeftRight 4s infinite linear;
+    position: absolute;
+    left: -100%
+}
+@keyframes moveLeftRight {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.team-member h1 {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+
+.team-member h2 {
+    margin: 10px 0 5px 0;
+    font-size: 1.3em;
+}
+
+.team-member p {
+    max-width: 700px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+/* Navigation Bar Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #06402B;
+    color: black;
+}
+
+header .logo h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 29px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 37px;
+    color: #06402B;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 26px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons a {
+    background-color: #06402B;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.buttons a:hover {
+    background-color: #051f1a;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #06402B;
+    color: white;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #D1FFBD;
+}
+
+.image-content img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: contain;
+}
